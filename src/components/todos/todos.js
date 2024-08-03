@@ -94,7 +94,7 @@ const Todos = () => {
 
   const signOut = () => {
     localStorage.removeItem("username");
-    navigate("/signin");
+    navigate("/");
   };
 
   return (
